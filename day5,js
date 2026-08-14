@@ -1,0 +1,8 @@
+//event
+ const EventEmitter=require('events');
+ const events=new EventEmitter();
+ events.on("greet",()=>{
+    console.log("this is event emitter");
+ })
+ events.on("exit",()=>{})
+ events.emit("great");
