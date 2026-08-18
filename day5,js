@@ -5,4 +5,5 @@
     console.log("this is event emitter");
  })
  events.on("exit",()=>{})
- events.emit("great");
+ events.emit("greet");
+ events.emit("exit")
